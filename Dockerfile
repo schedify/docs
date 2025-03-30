@@ -26,4 +26,4 @@ FROM prod AS serve
 ## Expose the port that Docusaurus will run on.
 EXPOSE 3000
 ## Run the production server.
-CMD ["pnpm", "serve", "--", "--host", "0.0.0.0", "--no-open"]
+CMD ["pnpm", "serve", "--host=0.0.0.0", "--no-open"]
