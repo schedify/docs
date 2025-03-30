@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Schedify",
   tagline: "Scheduling made easier",
-  favicon: "img/favicon.ico",
+  favicon: "https://schedify.dev/schedify.png",
 
   // Set the production url of your site here
   url: "https://docs.schedify.dev",
@@ -55,8 +55,8 @@ const config: Config = {
     navbar: {
       title: "Schedify",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Schedify",
+        src: "https://schedify.dev/schedify.png",
       },
       items: [
         {
