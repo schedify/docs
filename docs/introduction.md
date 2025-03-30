@@ -6,7 +6,7 @@ sidebar_position: 1
 
 
 ## What is Schedify?
-Schedify is like an alarm clock for servers. Set a task, pick a time, and we’ll send a webhook notification to your server exactly when needed!
+**Schedify** is basically an alarm clock for servers. Set a task, specify payload, pick a time, and we’ll send a webhook notification to your server exactly when needed!
 
 ## Use case
 
