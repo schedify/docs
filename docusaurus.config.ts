@@ -13,7 +13,7 @@ const config: Config = {
   url: "https://docs.schedify.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/home",
+  baseUrl: "/docs",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -53,20 +53,14 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Schedify",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-        {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/schedify",
           label: "GitHub",
           position: "right",
         },
